@@ -155,7 +155,7 @@ a{
     padding: 10px;
 }
 .quick-access-first:hover{
-    border: 1px solid var(--black-color);
+box-shadow: 3px 4px 4px #DCDCDC;
 }
 .item{
     height: 140px;
@@ -184,7 +184,7 @@ a{
     margin-top: 10px;
 }
 .item:hover , .inside-item:hover{
-    border: 1px solid var(--black-color);
+    box-shadow: 3px 4px 4px #DCDCDC;
 }
 .quick-access-second{
     height: 200px;
@@ -236,7 +236,7 @@ a{
     padding: 10px;
 }
 .wallet-first:hover{
-    border: 1px solid var(--black-color);
+    box-shadow: 3px 4px 4px #DCDCDC;
 }
 .active-request{
     margin-top: 70px;
@@ -254,14 +254,13 @@ a{
 }
 .table tbody tr{
     border-radius: 10px;
-    margin-top: 50px; 
+    padding-top: 20px; 
+}
+.table tbody tr:hover{
     box-shadow: 0 0 white,
             0 1px #ccc,
             0 0 white,
             0 0 white;
-}
-.table tbody tr:hover{
-    border: 1px solid var(--black-color);
 }
 .icon{
    margin-left: 20%;
@@ -317,6 +316,7 @@ a{
 .head{
     margin-top: 50px;
     margin-left: 30px;
+    display: flex;
 }
 .head .h3{
     color: black;
@@ -349,3 +349,60 @@ a{
     opacity: 0.8;
     transition: 0.2s ease-in;
 }
+.btn-nav i{
+    width: 20px;
+    height: 20px;
+}
+.mobile-sidebar {
+    width: 250px;
+    background: var(--black-color);
+    color: white;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: auto;
+    position: absolute;
+    overflow: hidden;
+    z-index: 4;
+   margin-top: -20px;
+   border-radius: 20px 20px 20px 0px;
+}
+.mobile-sidebar>ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 30px;
+}
+.mobile-sidebar .head{
+    position:relative;
+    border-radius: unset;
+}
+.mobile-sidebar .head img{
+    width: 50px;
+    height: 50px;
+}
+.close-menu{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -30px;
+    left: 40px;
+}
+.mobile-sidebar ul{
+    margin-top: -10px;
+}
+.mobile-sidebar .sideitem a{
+    color: white;
+    font-size: 13px;
+}
+.mobile-sidebar .sideitem a svg{
+    fill: #EEEEEE;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+.mobile-sidebar .sideitem a path{
+    fill: #EEEEEE;
+}
+

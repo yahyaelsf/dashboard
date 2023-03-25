@@ -3,7 +3,7 @@
     .sidebar{
         display: none;
     }
-    .nav-action {
+    .nav-action{
         display: none;
     }
     .btn-nav{
@@ -17,4 +17,42 @@
     .hedear{
         border-radius: unset;
     }
+    .quick-access-second{
+        margin-top: 20px;
+    }
+    .head .h3{
+        font-size: 20px;
+        color: white;
+    }
+    .head p{
+        font-size: 14px;
+        font-weight: 300px;
+        padding-top: 0px;
+    }
+    .sub-header img{
+    width: 150px;
+    height: 120;
+    margin-right: -30px;
+    margin-top: 10px;
+}
+.sub-header-content {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.sub-header-content h3{
+    color: var(--black-color);
+    font-size: 22px;
+}
+.sub-header-content p{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #73797D;
+}
+.close{
+    position: absolute;  
+    top: 0px;
+    right: -20px;
+}
+    
 }
