@@ -1,5 +1,8 @@
 
 @media (max-width:780px) {
+    .tap{
+        display: none;
+    }
     .sidebar{
         display: none;
     }
