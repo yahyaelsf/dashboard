@@ -416,4 +416,16 @@ box-shadow: 3px 4px 4px #DCDCDC;
 .mobile-sidebar .sideitem a path{
     fill: #EEEEEE;
 }
-
+.count{
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    background:#FF2929;
+    color: white;
+    position: relative;
+    top: -30px;
+    left: 13px;
+}
